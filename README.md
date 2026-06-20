@@ -2,6 +2,8 @@
 
 ## Dev/Creator = alwaysprince05
 
+![Dashboard Preview](dashboard.png)
+
 Research & Educational Purposes Only.
 
 ---
