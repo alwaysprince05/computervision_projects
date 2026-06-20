@@ -28,8 +28,13 @@ def install_dependencies():
 install_dependencies()
 
 import cv2, numpy as np, pandas as pd
-import tkinter as tk
-from PIL import Image, ImageTk
+try:
+    import tkinter as tk
+    from PIL import ImageTk
+except ImportError:
+    tk = None
+    ImageTk = None
+from PIL import Image
 from tqdm import tqdm
 from colorama import Fore, Style, init as colorama_init
 
