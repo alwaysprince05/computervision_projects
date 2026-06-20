@@ -24,7 +24,8 @@ def install_dependencies():
             pass
     print("\033[92m[INIT] Ready.\033[0m")
 
-install_dependencies()
+if __name__ == "__main__":
+    install_dependencies()
 
 import cv2, numpy as np, pandas as pd
 import matplotlib; matplotlib.use("Agg")
